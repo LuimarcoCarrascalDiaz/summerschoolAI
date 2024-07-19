@@ -1,4 +1,4 @@
-import secrets  # Use secrets module for cryptographically secure random numbers
+import secrets  # Uses secrets module for cryptographically secure random numbers
 
 def generate_uuid():
     base_string = "".join([str(secrets.randbelow(10)) for _ in range(32)])  # Generate 32 random digits
